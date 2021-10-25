@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lists assignment</title>
+    <style>
+      #FirstListDiv {
+        color: blue;
+      }
+      #SecondListDiv {
+        color: red;
+      }
+      #container > div:first-child > h2 {
+        /* #FirstListDiv = div:first-child */
+        text-decoration: underline;
+        font-style: italic;
+        font-weight: bold;
+      }
+      #SecondListDiv > h2 {
+        font-weight: normal;
+      }
+      #ThirdListDiv > ul {
+        list-style: square outside none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="FirstListDiv">
+        <h2>First list</h2>
+        <ul>
+          <li>chocolate</li>
+          <li>milk</li>
+          <li>sugar</li>
+        </ul>
+      </div>
+      <div id="SecondListDiv">
+        <h2>Second list</h2>
+        <ol>
+          <li>chocolate</li>
+          <li>milk</li>
+          <li>sugar</li>
+        </ol>
+      </div>
+      <div id="ThirdListDiv">
+        <h2>Third List</h2>
+        <ul>
+          <li>chocolate</li>
+          <li>milk</li>
+          <li>sugar</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
